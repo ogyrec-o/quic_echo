@@ -1,0 +1,13 @@
+[package]
+name = "quic_echo"
+version = "0.1.0"
+edition = "2024"   # если rustc старый — поставь "2021"
+
+[dependencies]
+anyhow = "1.0.100"
+bytes = "1.11.0"
+clap = { version = "4.5.54", features = ["derive"] }
+quinn = "0.11.9"
+rustls = { version = "0.23.36", default-features = false, features = ["std", "ring"] }
+tokio = { version = "1.49.0", features = ["full"] }
+regex = "1.12.2"
