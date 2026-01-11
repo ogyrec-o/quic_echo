@@ -1,7 +1,8 @@
 [package]
 name = "quic_echo"
 version = "0.1.0"
-edition = "2024"   # если rustc старый — поставь "2021"
+edition = "2024"
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.100"
